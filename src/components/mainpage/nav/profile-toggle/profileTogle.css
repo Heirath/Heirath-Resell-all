@@ -1,0 +1,61 @@
+
+ .profile-box{
+    display: flex;
+    flex-direction: column;
+    
+  
+  height: 23.5rem;
+  width: 18rem;
+  position: absolute;
+  top: 3.5rem;
+  right: 6rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.name {
+  display: flex;
+  margin: 1rem;
+  align-items: center;
+  gap: 1rem;
+  cursor: pointer;
+}
+.name img {
+  height: 3.5rem;
+  border-radius: 50rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.name h3 {
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+.view-profile {
+  background-color: rgb(6, 21, 6);
+  text-align: center;
+  color: #fff;
+  margin: 1rem;
+  padding: .8rem 0rem;
+  border-radius: .3rem;
+  cursor: pointer;
+  
+}
+.view-profile:hover {
+ background-color: transparent;
+  border: 3px solid rgb(6, 21, 6);
+  color: rgb(6, 21, 6);
+}
+.my-ads{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    padding: 1rem;
+    color: rgb(6, 21, 6);
+    font-size: 1.3rem;
+    font-weight: 300;
+}
+.my-ads:hover{
+background-color:rgb(196, 234, 198) ;
+cursor: pointer;
+}
+.line{
+    height: 1px;
+    background-color:rgb(196, 234, 198);
+}

@@ -1,0 +1,60 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&family=Raleway:wght@300&family=Roboto:wght@100;300;400;500;700;900&family=Rubik:wght@400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html{
+    font-family: 'Poppins', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Rubik', sans-serif;
+scroll-behavior: smooth;
+align-items: center;
+color: rgb(14, 36, 24);
+scroll-behavior: smooth;
+    transition: all 2000ms ease;
+   
+
+
+
+}
+img{
+    border-radius: .3rem;
+}
+button{
+    font-size: 1rem;
+    padding: 1rem;
+    background-color: rgb(6, 21, 6);
+    color: white;
+    border-radius: .3rem;
+    cursor: pointer;
+    font-weight: 700;
+
+}
+button:hover{
+    background-color: rgb(10, 62, 10);
+
+}
+input{
+    border-radius: .3rem;
+    height: 1rem;
+}
+.borderButton{
+    padding: .7rem;
+    width: 20rem;
+    border: 3px solid;
+    border-color:  rgb(6, 21, 6);
+    color:rgb(6, 21, 6) ;
+    border-radius: .3rem;
+    font-size: 1rem;
+    font-weight:500;
+    background-color: transparent;
+    font-weight: 700;
+    width: 100%;
+}
+.borderButton:hover{
+    background-color: rgb(6, 21, 6);
+    color: white;
+}

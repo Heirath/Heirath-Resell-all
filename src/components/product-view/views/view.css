@@ -1,0 +1,134 @@
+.detail-container-main{
+    display: flex;
+    padding: 2rem 1rem 0rem 3rem;
+    gap: 1rem;
+    width: 100vw;
+    
+}
+
+p{
+    color: rgb(44, 131, 60);
+}
+img:hover{
+  
+    cursor: pointer;
+    transition: all 2000ms ease;
+ 
+}
+.img-container{
+width: 60vw;
+height: 60vh;
+
+
+}
+.img-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.small-img{
+    height: 10rem;
+    display: flex;
+    padding: 1rem 1rem;
+    gap: 1rem;
+    border: 1px solid;
+    border-radius: .3rem;
+    border-color: rgb(196, 234, 198);
+}
+.small-img img{
+    height: 100%;
+    gap: 1rem;
+}
+.details{
+border: 1px solid;
+padding: 1rem 1rem;
+border-radius: .3rem;
+border-color: rgb(196, 234, 198);
+}
+.details-row{
+    margin-top: 2rem;
+    gap: 4rem;
+    display: flex;
+    border-color: rgb(196, 234, 198);
+}
+.discription{
+    border: 1px solid;
+    padding: 1rem 1rem;
+border-radius: .3rem;
+border-color: rgb(196, 234, 198);
+
+}
+.price-side{
+    margin: 0rem 2rem 0rem 0rem;
+}
+.discription p{
+    margin-top: 2rem;
+    gap: 4rem;
+    display: flex;
+    
+}
+.price-container{
+    border: 1px solid;
+  
+    padding: 1rem 1rem ;
+border-radius: .3rem;
+border-color: rgb(196, 234, 198);
+
+
+}
+.price-container h3{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.price-container p{
+    font-size: 1rem;
+}
+.poster-details{
+    border: 1px solid;
+    padding: 1rem 1rem;
+border-radius: .3rem;
+border-color: rgb(196, 234, 198);
+}
+.price-side{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.date{
+    padding: 1rem 0rem 0rem 25rem;
+    color: grey;
+}
+.poster-details h5{
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.poster-details h5:hover{
+    color: rgb(20, 58, 8);
+}
+@media only screen and (max-width: 800px){
+    .detail-container-main{
+      flex-wrap: wrap;
+      padding: 1.5rem 1.5rem;
+    }
+    .img-container{
+        width: 90vw;
+    }
+}
+@media only screen and (max-width: 600px){
+    .detail-container-main{
+        padding: 1rem 1rem;
+    }
+    .small-img{
+        height: 8.5rem;
+    }
+    .small-img img{
+        width: 100px;
+        height: 100px;
+        gap: 1rem;
+       
+    }
+    .price-side{
+        margin: 0rem rem 0rem 0rem;
+    }
+}
